@@ -41,4 +41,19 @@
       width: 100%;
       text-align: center;
     }
+    /* onli game section */
+    .online-text{
+        width:100%;
+        font-size: 13px;
+    }
+    .online-main{
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 15px;
+        grid-template-areas:
+        "a"
+        "b"
+        "c"
+        "d";
+    }
 }
