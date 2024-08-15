@@ -277,3 +277,53 @@ background-color: #4EC5F7;
         background-clip: text;
         color:transparent; 
     }
+    /* pink career section */
+    .career-container{
+        background-color: #FF42A5;
+        margin-top: 20px;
+    }
+    .career-main{
+        display: flex;
+        align-items: center;
+        width: 980px;
+        height: 450px;
+        margin: 0 auto;  
+    }
+    .career-left{
+        color: rgba(255, 255, 255, 0.694);  
+        width: 50%; 
+    }
+    .career{
+        width: 100%;
+        font-size: 13px;
+    }  
+    .pink{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+    .pink-btn{
+        width: 200px;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 30px;
+        margin-top: 10px;
+        background-color: rgba(255, 255, 255, 0.731);
+        text-transform: uppercase;
+        text-align: center; 
+        margin-top: 20px;
+    }
+    .pink-btn-in{
+        background: linear-gradient(90.00deg, rgb(255, 66, 165),rgb(255, 66, 165)); 
+        background-clip: text;
+        color: transparent;
+        font-size: 15px;
+        font-weight: 650;
+        border: none; 
+    }
+    .career-right{
+       width: 100%;
+    }
+    .career-right img{
+       width: 100%;
+    }
