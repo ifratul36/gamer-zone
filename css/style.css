@@ -327,3 +327,25 @@ background-color: #4EC5F7;
     .career-right img{
        width: 100%;
     }
+    /* category section */
+    .category-main{
+        width: 790px;
+        margin: 100px auto;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+       justify-content: center;
+    }
+    .category-child{
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      border-radius: 20px;
+    }
+    .category-child img{
+      width: 40px;
+    }
+    .category-child:hover{
+        outline: 1px solid #FF42A5;
+    }

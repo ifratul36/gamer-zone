@@ -122,4 +122,12 @@
         margin-top: 20px;
         width: 80%;
       }
+      /* category section */
+      .category-main{
+        width: 100%;
+    }
+      .category-child img{
+        width: 18px;
+        font-size: 8px;
+    }
 }
