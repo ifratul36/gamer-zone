@@ -44,7 +44,7 @@
       text-align: center;
       margin-top: 20px;
     }
-    /* onli game section */
+    /* online game section */
     .online-text{
         width:100%;
         font-size: 13px;
@@ -60,4 +60,10 @@
         "c"
         "d";
     }
+    .online-card img:hover+.Watch-Now{
+        display: block;
+     }
+     .online-card img:hover{
+        filter: brightness(50%);
+     }
 }
