@@ -89,4 +89,22 @@
         width: 130px;
         height: 130px;
     }
+    /* play game online section */
+    .play-game-main{
+
+        margin-top: 40px;
+        width:100%;
+        height: auto;
+        flex-direction: column-reverse;
+    }
+    .play-game-right{
+        /* margin-top: 20px; */
+        width:80%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .play-game-left{
+        margin-top: 20px;
+        width:70%;
+    }
 }
