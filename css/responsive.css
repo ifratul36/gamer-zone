@@ -66,4 +66,27 @@
      .online-card img:hover{
         filter: brightness(50%);
      }
+     /* play instantly section */
+     .play-main{
+       width: 100%;
+       height: auto;
+       margin-left: 0;
+       flex-direction: column;
+     }
+     .play-right{
+       width: 70%;
+       margin-top: 20px;
+     }
+     .play-left{
+       width: 80%;
+     }
+     .play-left p{
+        width: 90%;
+        margin: 0 auto;
+      }
+      .cat{
+        left: -30px;
+        width: 130px;
+        height: 130px;
+    }
 }

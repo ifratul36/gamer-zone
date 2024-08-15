@@ -37,6 +37,7 @@
      border: none;
      font-size: 18px;
      margin-right: 15px;
+     color: rgb(83, 76, 100);
 } 
 .nav-btn-follow{
      background-color: #5a595c7a;
@@ -141,11 +142,8 @@ background-color: #4EC5F7;
     letter-spacing: 0%;
     }
     /* online section */
-    .online-container{
-
-    }
     .online-text{
-       color: rgb(83, 76, 100);
+       color: rgb(11, 2, 35);
        font-size: 1.13rem;
        font-weight: 400;
        text-align: center;
@@ -169,6 +167,9 @@ background-color: #4EC5F7;
     .online-card{
        font-size: 15px;
        position: relative;
+    }
+    .online-card p{
+      color: rgb(83, 76, 100);
     }
     .online-card img{
        width:100%;
@@ -198,4 +199,48 @@ background-color: #4EC5F7;
     }
     .online-card img:hover{
        filter: brightness(50%);
+    }
+    /* play instantly section */
+    .play-main{
+      width: 850px;
+      height: 400px;
+      margin-left: 270px;
+      margin-top: 25px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .play-left{
+        width: 40%;
+        text-align: center;
+    }
+    .play-left p{
+      width: 70%;
+      margin: 0 auto;
+    }
+    .play-right{
+        width: 40%;
+        position: relative;
+    }
+    .play-right img{
+        width: 100%;
+    }
+     .cat{
+        position: absolute;
+        bottom: 0;
+        left: -60px;
+        width: 150px;
+        height: 150px;
+    }
+    .play-instant{
+        background: linear-gradient(180.00deg, rgb(249, 72, 178),
+        rgb(135, 88, 241));
+        background-clip: text;
+        color:transparent;  
+    }
+    .play-left p {
+        color: rgb(83, 76, 100);
+    }
+    .play-left h1 {
+        color: rgb(11, 2, 35);
     }
