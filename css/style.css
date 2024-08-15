@@ -164,9 +164,11 @@ background-color: #4EC5F7;
         "a b c d";
         margin: 0 auto;
         gap: 10px;
+        margin-top: 20px;
     }
     .online-card{
        font-size: 15px;
+       position: relative;
     }
     .online-card img{
        width:100%;
@@ -183,4 +185,17 @@ background-color: #4EC5F7;
     }
     .card-4{
         grid-area: d;
+    }
+    .Watch-Now{
+      position: absolute;
+      top: 35%;
+      left: 34%;
+      text-align: center;
+      display: none;
+    }
+    .online-card img:hover+.Watch-Now{
+       display: block;
+    }
+    .online-card img:hover{
+       filter: brightness(50%);
     }

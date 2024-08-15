@@ -13,7 +13,7 @@
     }
     /* header section */
     .header-container{
-        margin-top: 15px;
+        margin-top: 20px;
     }
     .header-main{
         flex-direction: column-reverse;
@@ -21,13 +21,15 @@
     }
     .header-left{
         width: 80%;
+        margin-top: 30px;
     }
     .header-right{
         width: 80%;
+        margin-top: 20px;
     }
     /* gamer section */
     .gamer-container{
-        margin-top: 15px;
+        margin-top: 20px;
     }
     .gamer-main{
         flex-direction: column;
@@ -40,16 +42,18 @@
     .gamer-right{
       width: 100%;
       text-align: center;
+      margin-top: 20px;
     }
     /* onli game section */
     .online-text{
         width:100%;
         font-size: 13px;
+        margin-top: 40px;
     }
     .online-main{
         width: 80%;
         margin: 0 auto;
-        margin-top: 15px;
+        margin-top: 20px;
         grid-template-areas:
         "a"
         "b"
