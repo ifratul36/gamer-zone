@@ -130,4 +130,31 @@
         width: 18px;
         font-size: 8px;
     }
+    /* footer section */
+    .footer-container{
+      width: 100%;
+    }
+    .footer-main{
+      width: 60%;
+      font-size: 15px;
+    }
+    .footer-second{
+      max-width: 100%;
+      grid-template-columns: repeat(3, 1fr);
+    }
+    .footer-third{
+        font-size: 20px;
+      max-width: 100%;
+      grid-template-columns: repeat(3, 1fr);
+    }
+    .footer-four{
+        font-size: 15px;
+      max-width: 100%;
+      grid-template-columns: repeat(2, 1fr);
+    }
+    .footer-five{
+        margin-top: 8px;
+        text-align: center;
+    }
+
 }
